@@ -1,0 +1,54 @@
+.site-navbar {
+
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+
+
+    .nav-left {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+
+        .icon-home-image {
+        color: rgb(201, 84, 104);
+            
+
+            &:hover {
+        color: rgb(201, 84, 104);
+            }
+        }
+    }
+
+    .nav-right {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        animation: bounce-top 0.9s both;
+    }
+
+
+    .brand {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        animation: flip-scale-up-hor 3s linear both;
+    }
+}
+
+.nav-link {
+
+
+    &:hover {
+    color: rgb(201, 84, 104);
+
+    }
+}
+
+
+.image-style {
+    width: 50px;
+    height: 50px;
+}
